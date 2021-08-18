@@ -586,7 +586,6 @@ async def _(event):
             pass
 
 
-
 COLORS = [
     "#F07975",
     "#F49F69",
@@ -1042,8 +1041,6 @@ EMOJI_PATTERN = re.compile(
 def deEmojify(inputString: str) -> str:
     """Remove emojis and other non-safe characters from string"""
     return re.sub(EMOJI_PATTERN, "", inputString)
-
-
 
 
 @register(pattern="^/animate (.*)")

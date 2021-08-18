@@ -31,7 +31,6 @@ from Raya.function.pluginhelpers import member_permissions
 from Raya.services.pyrogram import pbot as app
 
 
-
 @app.on_message(filters.command("filter") & ~filters.edited & ~filters.private)
 async def save_filters(_, message):
     if len(message.command) < 2 or not message.reply_to_message:

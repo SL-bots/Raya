@@ -6,7 +6,6 @@ import bs4
 import requests
 from bs4 import BeautifulSoup
 from pyrogram import filters
-
 from search_engine_parser import GoogleSearch
 
 from Raya.modules.utils.fetch import fetch

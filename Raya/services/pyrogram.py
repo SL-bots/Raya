@@ -2,7 +2,6 @@ import logging
 
 from pyrogram import Client
 
-
 from Raya.config import get_int_key, get_str_key
 
 TOKEN = get_str_key("TOKEN", required=True)

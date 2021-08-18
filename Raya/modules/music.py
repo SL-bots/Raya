@@ -11,8 +11,6 @@ from Raya.services.pyrogram import pbot
 GENIUS = get_str_key("GENIUS_API_TOKEN", None)
 
 
-
-
 @pbot.on_message(filters.command(["lyric", "lyrics"]))
 async def _(client, message):
     lel = await message.reply("Searching For Lyrics.....")

@@ -6,7 +6,6 @@ from pyrogram.types import (
     Message,
 )
 
-
 from Raya.Addons.ImageEditor.edit_1 import (  # pylint:disable=import-error
     black_white,
     box_blur,

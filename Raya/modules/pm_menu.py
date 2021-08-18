@@ -67,9 +67,7 @@ async def get_start_func(message, strings, edit=False):
     )
     buttons.add(
         InlineKeyboardButton(strings["btn_channel"], url="https://t.me/SLBotsOfficial"),
-        InlineKeyboardButton(
-            strings["btn_group"], url="https://t.me/trtechguide"
-        ),
+        InlineKeyboardButton(strings["btn_group"], url="https://t.me/trtechguide"),
     )
     buttons.add(
         InlineKeyboardButton(

@@ -6,7 +6,7 @@ import sys
 import rapidjson
 import requests
 
-from Raya import Raya_VERSION, OWNER_ID, bot, dp
+from Raya import OWNER_ID, Raya_VERSION, bot, dp
 from Raya.decorator import COMMANDS_ALIASES, REGISTRED_COMMANDS, register
 from Raya.modules import LOADED_MODULES
 from Raya.services.mongo import db, mongodb
