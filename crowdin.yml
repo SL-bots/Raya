@@ -1,0 +1,3 @@
+files:
+  - source: Raya/localization/en.yaml
+    translation: /**/Raya/localization/%locale_with_underscore%.yaml
